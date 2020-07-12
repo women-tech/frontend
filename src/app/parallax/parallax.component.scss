@@ -1,0 +1,54 @@
+.parallax {
+    /* The image used */
+    // background-image: url("https://estaticos.muyinteresante.es/media/cache/1140x_thumb/uploads/images/gallery/59c4f5655bafe82c692a7052/gato-marron_0.jpg");
+    // background-image: url("SV.jpeg");
+    // assets/SV.jpeg
+  
+    /* Set a specific height */
+    height: 1200px;
+    // width:100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Teko', sans-serif;
+  }
+
+
+  .parallax h1, h3, h6{
+    text-align: center;
+      color:#f5d31c!important;
+
+      margin: 0 auto;
+  }
+
+  .parallax h2{
+    text-align: center;
+    color:#49598c;
+    margin:0 auto;
+
+  }
+
+  .azul{
+      background-color: #f5d31c;
+      margin-left:5vw;
+      margin-right: 5vw;
+  }
+  #titulo, #sub{
+      margin-bottom: 2rem;
+      font-size:72px;
+  }
+
+//   #titulo{
+//     font-size:96px;  
+//   }
+
+  #sub3{
+      font-size: 48px;
+  }
+
+  #sub4{
+      font-size:24px;
+  }

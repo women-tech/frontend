@@ -1,0 +1,27 @@
+footer{
+    // background-color:#D4B5E1;
+    background-color:#49598c;
+    font-family: 'Source Code Pro', monospace;
+}
+
+span i{
+    padding:1em;
+    font-size: 2em;
+    transition: 0.3s;
+    opacity:0.8
+}
+
+img{
+    width:60%;
+    height:auto;
+    display: block;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+span i:hover{
+    font-size: 2.2em;
+    opacity:1;
+    cursor: pointer;
+}
+

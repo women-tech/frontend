@@ -1,0 +1,20 @@
+
+.pink{
+    // background-color: #cd89a0 !important;
+    background-color: #d2a73e !important;
+    
+}
+img{
+    width:40%;
+    height:auto;
+}
+
+.logo{
+    margin-left:2em;
+}
+
+@media (max-width: 600px) {
+    .logo{
+        margin-left:0em;
+    }
+  }
