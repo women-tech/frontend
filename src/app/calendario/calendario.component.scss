@@ -1,20 +1,13 @@
 $blockTimes: 800,830,900,930,1000,1030,1100,1130,1200,1230,1300,1330,1400,1430,1500,1530,1600,1630,1700,1730,1800,1830,1900,1930,2000,2030,2100,2130;
-$blockLengths: 1, 2, 3, 4;
+$blockLengths: 1, 2, 3, 4,5;
 
-body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    padding: 4rem 0;
-    font-family: -system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-}
+
 
 .scheduleContainer {
     display: grid;
     grid-gap: 0.2rem;
     
-    grid-template-columns: 5rem repeat(4, 1fr); 
+    grid-template-columns: 5rem repeat(5, 1fr); 
     grid-template-rows: repeat(28, 1fr);
     grid-template-areas:
         "time800 stage stage stage stage"
@@ -76,7 +69,7 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding: 0.5rem 1rem;
+    padding:  1rem;
     background-color: orange;
     border-radius: 0.2rem;
     font-size: 0.8rem;
@@ -110,4 +103,5 @@ body {
     &.stage-mars {background-color: #B3E5FC};
     &.stage-jupiter {background-color: #81D4FA};
     &.stage-saturn {background-color: #26C6DA};
+    &.stage-white {background-color: #ffffff};
 }
