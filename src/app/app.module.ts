@@ -12,6 +12,7 @@ import { ParallaxComponent } from './parallax/parallax.component';
 import { CardsComponent } from './cards/cards.component';
 import { CalendarioComponent } from './calendario/calendario.component';
 import { TutorialesComponent } from './tutoriales/tutoriales.component';
+import { VideoComponent } from './video/video.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { TutorialesComponent } from './tutoriales/tutoriales.component';
     ParallaxComponent,
     CardsComponent,
     CalendarioComponent,
-    TutorialesComponent
+    TutorialesComponent,
+    VideoComponent
   ],
   imports: [
     BrowserModule,
