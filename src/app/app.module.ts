@@ -11,6 +11,7 @@ import { ActividadesComponent } from './actividades/actividades.component';
 import { ParallaxComponent } from './parallax/parallax.component';
 import { CardsComponent } from './cards/cards.component';
 import { CalendarioComponent } from './calendario/calendario.component';
+import { TutorialesComponent } from './tutoriales/tutoriales.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { CalendarioComponent } from './calendario/calendario.component';
     ActividadesComponent,
     ParallaxComponent,
     CardsComponent,
-    CalendarioComponent
+    CalendarioComponent,
+    TutorialesComponent
   ],
   imports: [
     BrowserModule,
