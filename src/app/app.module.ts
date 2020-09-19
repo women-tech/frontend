@@ -1,7 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FooterComponent } from './footer/footer.component';
@@ -13,6 +12,8 @@ import { CardsComponent } from './cards/cards.component';
 import { CalendarioComponent } from './calendario/calendario.component';
 import { TutorialesComponent } from './tutoriales/tutoriales.component';
 import { VideoComponent } from './video/video.component';
+import { FairComponent } from './fair/fair.component';
+import { InicioComponent } from './inicio/inicio.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,9 @@ import { VideoComponent } from './video/video.component';
     CardsComponent,
     CalendarioComponent,
     TutorialesComponent,
-    VideoComponent
+    VideoComponent,
+    FairComponent,
+    InicioComponent
   ],
   imports: [
     BrowserModule,
