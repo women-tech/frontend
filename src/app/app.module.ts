@@ -14,6 +14,7 @@ import { TutorialesComponent } from './tutoriales/tutoriales.component';
 import { VideoComponent } from './video/video.component';
 import { FairComponent } from './fair/fair.component';
 import { InicioComponent } from './inicio/inicio.component';
+import { ScienceComponent } from './science/science.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { InicioComponent } from './inicio/inicio.component';
     TutorialesComponent,
     VideoComponent,
     FairComponent,
-    InicioComponent
+    InicioComponent,
+    ScienceComponent
   ],
   imports: [
     BrowserModule,
