@@ -1,37 +1,40 @@
+<app-parallax-fair></app-parallax-fair>
 <div class="container">
 
     <div class="row mt-5">
-        <h1>Feria</h1>
+        <!-- <h1>Feria</h1> -->
     </div>
+    <br>
+    <br>
 
-    <div class="row mt-5">
-        <div class="col-sm-4 mb-3 mb-md-0">
+     <!-- <div class="row mt-5"> -->
+        <div class="card-columns"> 
             <!-- Card -->
-            <div class="card">
+            <div class="card" *ngFor="let ponente of ponentes">
             
                     <!-- Card image -->
                     <div class="view overlay">
-                        <img class="card-img-top" src="assets/feria/sofia.jpeg"
+                        <img class="card-img-top" [src]="ponente.imagen"
                             alt="Card image cap">
                         <a href="#!">
-                            <div class="mask rgba-white-slight"></div>
+                            <div class="mask rgba-white-slight"> </div>
                         </a>
                     </div>
                     
                     <!-- Card content -->
                     <div class="card-body">
                         <!-- Title -->
-                        <h4 class="card-title">Ana Sofía Júarez Cruz</h4>
+                        <h4 class="card-title">{{ponente.nombre}}</h4>
                         <!-- Text -->
-                        <p class="card-text"><strong>Carrera:</strong> Ingeniería en Mecatrónica</p>
-                        <p class="card-text"><strong>Fecha:</strong> 5 de noviembre</p>
-                        <p class="card-text"><strong>Horario:</strong> 16:00 PM</p>
+                        <p class="card-text"><strong>Carrera:</strong> {{ponente.carrera}} </p>
+                        <p class="card-text"><strong>Fecha:</strong> {{ponente.fecha}} </p>
+                        <p class="card-text"><strong>Horario:</strong> {{ponente.horario}} </p>
                         <hr>
-                        <p class="card-text scroll">Ana Sofía es originaria de Xalapa, Veracruz y tiene 22 años. Actualmente es estudiante de 9no semestre de Ingeniería Mecatrónica en el Tecnológico de Monterrey campus Puebla. Su experiencia académica incluye el desarrollo de un sistema de detección de obstáculos en colaboración con Volkswagen México, participación en el desarrollo de un dispositivo ergonómico para un operador industrial, y una conentración en Estudios de Género en (Uis) Stavanger, Noruega. Entre sus intereses profesionales se encuentran el diseño en software CAD, mecanismos y automatización. Sus intereses personales incluyen el Tenis, el cine y leer.</p>
+                        <p class="card-text scroll"> {{ponente.descripcion}}</p>
                         <!-- Button -->
                        
                     </div>
             </div>
-        </div>
-    </div>   
+         </div>
+    <!-- </div>     -->
 </div>

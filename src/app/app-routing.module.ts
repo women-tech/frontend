@@ -9,7 +9,8 @@ import { Routes, RouterModule } from '@angular/router';
 const routes: Routes = [
   { path: 'index', component: InicioComponent},
   { path: 'women+science', component: ScienceComponent },
-  { path: 'fair', component: FairComponent }
+  { path: 'fair', component: FairComponent },
+  { path: '',   redirectTo: 'index', pathMatch: 'full' }, // redirect to `first-component`
 
 ];
 
