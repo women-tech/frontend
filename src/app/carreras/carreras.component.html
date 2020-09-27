@@ -1,0 +1,75 @@
+
+<br>
+<br>
+<div class="container">
+  <!-- Section: Blog v.1 -->
+  <section class="my-5">
+    <!-- Section heading -->
+    <h2 class="h1-responsive font-weight-bold text-center my-5">
+      ¡Conoce las carreras!
+    </h2>
+    <!-- Section description -->
+    <p class="text-center w-responsive mx-auto mb-5">
+      A continuación te presentamos algunas de las carreras que podrás explorar durante esta semana.
+    </p>
+
+    <!-- Grid row -->
+    <div class="row" *ngFor="let carrera of carreras">
+      <!-- Grid column -->
+      <div class="col-lg-5">
+        <!-- Featured image -->
+        <div
+          class="view overlay rounded z-depth-2 mb-lg-0 mb-4 waves-light"
+          mdbWavesEffect
+        >
+          <!-- <img
+            class="img-fluid"
+            src="https://mdbootstrap.com/img/Photos/Others/img%20(27).jpg"
+            alt="Sample image"
+          /> -->
+          <a>
+            <div class="mask rgba-white-slight"></div>
+          </a>
+        </div>
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-lg-7">
+        <!-- Category -->
+        <a href="#!" class="purple-text">
+          <h6 class="font-weight-bold mb-3">
+            <mdb-icon fas icon="calculator" class="pr-2"></mdb-icon>Ingenierías
+          </h6>
+        </a>
+        <!-- Post title -->
+        <h3 class="font-weight-bold mb-3">
+          <strong>{{carrera.nombre}}</strong>
+        </h3>
+        <!-- Excerpt -->
+        
+            <p class="card-text"><strong>Descripción:</strong> {{carrera.descripcion}} </p>
+          
+        
+        <!-- Post data -->
+      
+            <p class="card-text"><strong>Perfil del egresado:</strong> {{carrera.perfil}} </p>
+
+            <p class="card-text"><strong>Campo laboral:</strong> {{carrera.campo}} </p>
+
+       
+        <!-- Read more button -->
+        <a mdbBtn color="pink" mdbWavesEffect>Conoce al ponente</a>
+
+        <hr class="my-5" />
+      </div>
+      <!-- Grid column -->
+      
+    </div>
+    <!-- Grid row -->
+
+    
+
+  </section>
+  <!-- Section: Blog v.1 -->
+</div>

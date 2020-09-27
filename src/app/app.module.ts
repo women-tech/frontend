@@ -16,6 +16,7 @@ import { FairComponent } from './fair/fair.component';
 import { InicioComponent } from './inicio/inicio.component';
 import { ScienceComponent } from './science/science.component';
 import { ParallaxFairComponent } from './parallax-fair/parallax-fair.component';
+import { CarrerasComponent } from './carreras/carreras.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { ParallaxFairComponent } from './parallax-fair/parallax-fair.component';
     FairComponent,
     InicioComponent,
     ScienceComponent,
-    ParallaxFairComponent
+    ParallaxFairComponent,
+    CarrerasComponent
   ],
   imports: [
     BrowserModule,
