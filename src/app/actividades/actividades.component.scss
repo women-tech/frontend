@@ -7,11 +7,9 @@ h2,h3{
 }
 p{
     font-family: 'Montserrat', sans-serif;
-    font-size:30px;
+    font-size:80px;
 }
-img{
-   
-}
+
 
 .images{
    margin:0 auto;
@@ -20,3 +18,53 @@ h4.card-title{
     text-align: center;
 }
 
+.parallax {
+    /* The image used */
+    // background-image: url("https://estaticos.muyinteresante.es/media/cache/1140x_thumb/uploads/images/gallery/59c4f5655bafe82c692a7052/gato-marron_0.jpg");
+    // background-image: url("SV.jpeg");
+    // assets/SV.jpeg
+  
+    /* Set a specific height */
+    height: 800px;
+    width:100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Teko', sans-serif;
+  }
+
+  h1{
+      color:white;
+      text-align:center;
+      font-size:68px;
+    //   margin-top:50%;
+  }
+
+  p.card-text{
+      font-size:25px;
+      text-align: center;
+  }
+
+  h4.card-title{
+      font-size:68px;
+      color: #D4B5E1;
+  }
+
+
+  @media (min-width: 768px) {
+    img.card-img-top{
+       height:10% !important; 
+       width:50%;
+       margin:0 auto;
+    }
+    
+}
+
+@media only screen and (max-width: 767px) {
+    .parallax{
+        height:100%;
+    }
+}
