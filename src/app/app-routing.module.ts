@@ -13,7 +13,7 @@ const routes: Routes = [
   { path: 'women+science', component: ScienceComponent },
   { path: 'fair', component: FairComponent },
   { path: 'carreras', component: CarrerasComponent },
-  { path: '',   redirectTo: 'index', pathMatch: 'full' }, // redirect to `first-component`
+  { path: '',   redirectTo: 'carreras', pathMatch: 'full' }, // redirect to `first-component`
 
 ];
 

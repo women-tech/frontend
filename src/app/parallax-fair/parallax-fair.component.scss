@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
 .parallax {
     /* The image used */
     // background-image: url("https://estaticos.muyinteresante.es/media/cache/1140x_thumb/uploads/images/gallery/59c4f5655bafe82c692a7052/gato-marron_0.jpg");
@@ -17,38 +19,66 @@
   }
 
 
-  .parallax h1, h3, h6{
-    text-align: center;
-      color:#f5d31c!important;
+//   .parallax h1, h3, h6{
+//     text-align: center;
+//       color:#f5d31c!important;
 
-      margin: 0 auto;
-  }
-
-  .parallax h2{
-    text-align: center;
-    color:#49598c;
-    margin:0 auto;
-
-  }
-
-  .azul{
-      background-color: #f5d31c;
-      margin-left:5vw;
-      margin-right: 5vw;
-  }
-  #titulo, #sub{
-      margin-bottom: 2rem;
-      font-size:72px;
-  }
-
-//   #titulo{
-//     font-size:96px;  
+//       margin: 0 auto;
 //   }
 
-  #sub3{
-      font-size: 48px;
+//   .parallax h2{
+//     text-align: center;
+//     color:#49598c;
+//     margin:0 auto;
+
+//   }
+
+//   .azul{
+//       background-color: #f5d31c;
+//       margin-left:5vw;
+//       margin-right: 5vw;
+//   }
+//   #titulo, #sub{
+//       margin-bottom: 2rem;
+//       font-size:72px;
+//   }
+
+// //   #titulo{
+// //     font-size:96px;  
+// //   }
+
+//   #sub3{
+//       font-size: 48px;
+//   }
+
+//   #sub4{
+//       font-size:24px;
+//   }
+
+
+  @font-face {
+    font-family: "MoonTime";
+    src: url("../../assets/feria/MoonTime-Regular.ttf") format("ttf"),
+    url("../../assets/feria/MoonTime-Regular.otf") format("opentype")
   }
 
-  #sub4{
-      font-size:24px;
+  h1{
+    font-family: 'Secular One', sans-serif;
+    // font-family: MoonTime;
+    font-size:96px;
+    color:#D0856D;
+    margin: 0 auto;
+    text-align: center;
+    padding-top:10%;
   }
+
+  h2{
+    font-family: MoonTime;
+    
+    margin: 0 auto;
+    text-align: center;
+
+    font-size:96px;
+  }
+
+
