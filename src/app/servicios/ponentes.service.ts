@@ -49,7 +49,7 @@ export class PonentesService {
   {
       nombre: "Karla Gabriela Domínguez Pérez",
       descripcion:"Estudiante de 6to semestre de Ingeniería Biomedica en el Tecnológico de Monterrey campus Guadalajara. Ha participado en diferentes servicios sociales como ayudar a niños de casas hogares. Actualmente apoya a la empresa Tecnologías al Servicio de la Comunidad, la cual se encarga de apoyar a que personas que han sufrido alguna amputación a que puedan volver a realizar sus actividades diarias con una prótesis.",
-      carrera: "Ingeniería en Mecatrónica",
+      carrera: "Ingeniería en Biomédica",
       fecha: "5 de noviembre",
       imagen:"assets/feria/karla.jpg",
       horario: "17:00 pm"
@@ -57,7 +57,7 @@ export class PonentesService {
   {
       nombre: "Arlem Villegas Praga",
       descripcion:"Estudiante de 7mo semestre de Ingeniería Industrial y de Sistemas en el Tecnológico de Monterrey campus Hidalgo. Le apasiona la logística, la administración de producción y el emprendimiento. Junto a su equipo, fue ganadora del Reto Emprendedor 2017 en campus Hidalgo; ha colaborado con dos empresas para resolver problemas operativos; además, ha sido staff en eventos como INGENIUS. Actualmente participa en dos proyectos de emprendimiento social, trabaja en Coca-Cola y es dueña de Chocograph.",
-      carrera: "Ingeniería en Mecatrónica",
+      carrera: "Ingeniería industrial y de sistemas",
       fecha: "4 de noviembre",
       imagen:"assets/feria/arlemia.jpeg",
       horario: "18:00 pm"
