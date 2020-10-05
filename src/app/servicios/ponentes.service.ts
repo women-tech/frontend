@@ -158,6 +158,14 @@ export class PonentesService {
       imagen:"assets/feria/male1.jpg",
       horario: "17:00pm"
   },
+  {
+    nombre: "Deyanira Paola Mendoza Armas",
+    descripcion:"Hola me llamo Deyanira Paola y estudio ingeniería en tecnologías de la información y comunicación, campus hidalgo. Dentro del tec he participado en proyectos sociales y en proyectos como hacer aplicaciones web, proyectos de automatización y domotica, entre otros.En el futuro me gustaría trabajar para alguna empresa grande como google, o incluso poner mi propia empresa. Lo que más me gusta de la carrera es que puedes aprender acerca de muchas áreas que están relacionadas entre sí y esto hace que te puedas enfocar en una o varias áreas. En mi tiempo libre me gusta conocer lugares nuevos, leer, pasar tiempo con mis amigos y aprender cosas nuevas.",
+    carrera: "Ingeniería en tecnologías de la información y comunicación",
+    fecha: "5 de noviembre",
+    imagen:"assets/feria/deya.png",
+    horario: "18:00pm"
+},
   ]
   constructor() { }
   getPonentes(){
