@@ -40,7 +40,7 @@ export class PonentesService {
   },
   {
       nombre: "Ana Sofía Juárez Cruz",
-      descripcion:"Estudiante de 9no semestre de Ingeniería Mecatrónica en el Tecnológico de Monterrey campus Puebla. Su experiencia académica incluye el desarrollo de un sistema de detección de obstáculos en colaboración con Volkswagen México, participación en el desarrollo de un dispositivo ergonómico para un operador industrial. Cuenta con una conentración en Estudios de Género en (Uis) Stavanger, Noruega. Entre sus intereses profesionales se encuentran el diseño en software CAD, mecanismos y automatización. Sus intereses personales incluyen el Tenis, el cine y leer.",
+      descripcion:"Estudiante de 9no semestre de Ingeniería Mecatrónica en el Tecnológico de Monterrey campus Puebla. Su experiencia académica incluye el desarrollo de un sistema de detección de obstáculos en colaboración con Volkswagen México, participación en el desarrollo de un dispositivo ergonómico para un operador industrial. Cuenta con estudios en la concentración en Estudios de Género en (Uis) Stavanger, Noruega. Entre sus intereses profesionales se encuentran el diseño en software CAD, mecanismos y automatización. Sus intereses personales incluyen el Tenis, el cine y leer.",
       carrera: "Ingeniería en Mecatrónica",
       imagen:"assets/feria/sofia.jpeg",
       fecha: "5 de noviembre",
